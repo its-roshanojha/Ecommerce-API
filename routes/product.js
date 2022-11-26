@@ -11,4 +11,4 @@ router.get('/', getAll)
 router.post('/', createNew)
 router.route('/:id').delete(deleteProduct)
 router.route('/:id/update_quantity').patch(productUpdate)
-module.exports = router
+module.exports = router;
